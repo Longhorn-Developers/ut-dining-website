@@ -11,8 +11,8 @@ import {
   Filter,
 } from "lucide-react";
 import { motion } from "framer-motion";
-import { Navbar } from "@/app/components/NavBar";
-import { Footer } from "@/app/components/Footer";
+import { Navbar } from "@/components/NavBar";
+import { Footer } from "@/components/Footer";
 import Link from "next/link";
 
 export default function Home() {

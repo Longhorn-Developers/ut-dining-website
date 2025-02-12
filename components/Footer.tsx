@@ -1,4 +1,5 @@
 import { Github } from "lucide-react";
+import Link from "next/link";
 
 export function Footer() {
   return (
@@ -16,28 +17,28 @@ export function Footer() {
             <h3 className="font-bold">Product</h3>
             <ul className="space-y-2">
               <li>
-                <a
+                <Link
                   href="/downloads"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
                   Downloads
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#features"
+                <Link
+                  href="/#features"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
                   Features
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#reviews"
+                <Link
+                  href="/reviews"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
                   Reviews
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -46,28 +47,28 @@ export function Footer() {
             <h3 className="font-bold">Resources</h3>
             <ul className="space-y-2">
               <li>
-                <a
+                <Link
                   href="/docs"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
                   Documentation
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#faq"
+                <Link
+                  href="/faq"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
                   FAQ
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/about"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
                   About
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -76,7 +77,7 @@ export function Footer() {
             <h3 className="font-bold">Connect</h3>
             <ul className="space-y-2">
               <li>
-                <a
+                <Link
                   href="https://github.com/Longhorn-Developers/ut-dining-website"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -84,7 +85,7 @@ export function Footer() {
                 >
                   <Github className="h-4 w-4" />
                   GitHub
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

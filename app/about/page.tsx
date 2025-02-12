@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
-import { Navbar } from "@/app/components/NavBar";
-import { Footer } from "@/app/components/Footer";
+import { Navbar } from "@/components/NavBar";
+import { Footer } from "@/components/Footer";
 import { Users, Github, Coffee, BookOpen } from "lucide-react";
 
 export default function About() {

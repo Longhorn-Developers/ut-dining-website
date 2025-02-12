@@ -15,6 +15,9 @@ export function Navbar() {
           >
             Downloads
           </Link>
+          <Link href="/docs" className="hover:text-primary transition-colors">
+            Docs
+          </Link>
           <Link
             href="/reviews"
             className="hover:text-primary transition-colors"
