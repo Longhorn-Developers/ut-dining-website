@@ -3,7 +3,7 @@ import { getMarkdownContent } from "@/lib/markdown";
 import ReactMarkdown from "react-markdown";
 
 export default async function PrivacyPolicy() {
-  const content = await getMarkdownContent('privacy-policy.md');
+  const content = await getMarkdownContent("privacy-policy.md");
 
   return (
     <div className="min-h-screen bg-background">
